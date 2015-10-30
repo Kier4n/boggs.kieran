@@ -1,0 +1,20 @@
+1.
+Git est une plateforme de partage de fichiers. cela permet à un groupe de personnes de travailler sur le même projet, la particularité étant qu'il est facile de "versionner" les fichiers. ce qui permet d'annuler facilement des erreurs lors d'une mise à jour.Pour résumer c'est une sorte de plateforme de gestion de versions de fichiers.
+
+2.
+Github est la version site web de git, si on devait le définir rapidement ce serait le réseau social de git. les projets sur github sont publics sauf si on paye l'abonnement.
+
+3.
+Faire un commit veut dire que l'on soumet ses changements au fichier sur lequel on travaille, avec un commentaire pour décrire les changements effectués. Mais cela ne veut pas dire que le fichier commun sera modifier, il faut utiliser la commande git add.
+
+4.
+l'intérêt principal d'une clef ssh sur github est de sécuriser l'accès à un repository sans que l'utilisateur soit obligé de renseigner son mot de passe à chaque fois.
+
+5.
+un conflit sure git est un problème entre deux fichiers qui sont supposé fusionner, souvent des erreurs quand deux personnes modifient le même fichier. Cependant git va créer un fichier au moment du conflit qui montre les erreurs et il faudra les corriger pour faire le commit.
+
+6.
+git merge index.php
+
+7.
+la branche master, c'est la branche sur laquelle on va mettre la version finale du travail en général. On peut aussi s'en servir comme branche de sauvegarde, la copier puis travailler sur la copie. grace à cela si jamais on a un probleme avec la copie on peut toujours repartir de la branche master.
